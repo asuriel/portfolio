@@ -1,1 +1,228 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'fonts';
+
+$gap-width: 40px;
+$padding-vertical:2.5vh;
+$padding-horizontal:16vw;
+
+
+html,
+input {
+    //for smoothing fonts in high density screens
+    -webkit-font-smoothing: antialiased;
+}
+
+///rest of css here
+
+body, h1,h2,h3,h4,h5,h6,p {
+    margin:0;
+    color:#414141;
+    line-height: 1.2; 
+}
+a {
+    text-decoration: none;
+    color: #414141;
+}
+
+//typography hierarchy for desktop
+/* 
+ each case study will have a different colour for the main title.
+ make a mixin to change this colour dynamically
+*/ 
+
+body {
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    // font-size: 32px;
+    font-size: 28px;
+    
+}
+
+h1 {
+    font-family: "Optima Bold", serif;
+    font-size: 60px;
+    // font-size: 2em;
+}
+h2 {
+    font-family: "Optima Bold", serif;
+    font-size: 40px;
+    // font-size: 1.8em;
+} 
+
+h3 {
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 30px;
+    // font-size: 1.2em;
+}
+
+h4 {
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    // font-size: 1.2em;
+    text-transform: uppercase;
+    }
+
+h5, figcaption {
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    // font-size: 1em;
+    text-transform: uppercase;
+}
+
+q {
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 44px;
+}
+
+.small-text {
+    font-family: mr-eaves-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    // font-size: 0.8em;
+    margin:0;
+}
+
+// case study layout styles
+
+//mobile
+@media only screen and (max-width: 800px){
+    .summary .details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2;  
+        column-gap: $gap-width; 
+
+    }
+}
+
+//for desktop
+@media only screen and (min-width: 800px){
+    .summary {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 2;
+        column-gap: $gap-width;
+
+        .details {
+            grid-column-start: 2;
+            
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);  
+            column-gap: $gap-width; 
+        }
+        .intro-title {
+            grid-column-start: 1;
+            grid-row-start: 2;
+        }
+        .intro-text {
+            grid-column-start: 2;
+            grid-row-start: 2;
+        }
+    }
+
+    .chapter {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: $gap-width;
+
+        .chapter-title {
+            padding: $padding-vertical 0;
+        }
+        .chapter-content, .chapter-image {
+            grid-column-start: 2;
+            padding: $padding-vertical 0;
+        }
+        .chapter-image img{
+            max-width: 100%;
+        }
+    }
+
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: $gap-width;
+        .page-subtitle, .page-title {
+            grid-column-start: 2;
+        }
+    }
+
+    .quote-image {
+        display: grid;
+        grid-template-columns: 1fr 1fr;  
+        column-gap: $gap-width;
+        color: white;
+        // text-align: center
+        q {
+            // display: block
+        }
+        img {
+            max-width: 100%;
+        }
+    }
+
+}
+
+.final-product img{
+    // width:70vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.end-chapter img{
+    width:80vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: $padding-vertical;
+}
+
+figure {
+    margin:0;
+    figcaption {
+        padding-left: $padding-horizontal;
+    }
+}
+
+///spacing - how to make it responsive?
+
+//fixing spacing in summary text
+.summary .details {
+    padding-bottom: (2*$padding-vertical);
+
+    div h4{
+        padding-bottom: (0.25*$padding-vertical);
+    }
+    div p {
+        padding-bottom: (0.5*$padding-vertical); 
+    }
+}
+
+//horizontal and vertical padding for each element
+article {
+    padding: (3*$padding-vertical) $padding-horizontal;
+}
+header {
+    padding: $padding-vertical $padding-horizontal;
+}
+
+
+.full-width {
+    background-color: #cccccc; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1271px" height="697px" viewBox="0 0 1271 697" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1190" height="1276"></rect>
+        <linearGradient x1="5.76167409%" y1="50%" x2="100%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#C077DB" offset="0%"></stop>
+            <stop stop-color="#A546CD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-Copy-6" fill="#17466A" x="0" y="1" width="1276" height="696"></rect>
+        <g id="picloimg" transform="translate(81.000000, -222.000000)">
+            <g id="Grid">
+                <g id="Lines" transform="translate(395.045965, 150.689524)">
+                    <line x1="193.268641" y1="668.380952" x2="290.510725" y2="725.497143" id="Solar-3-line" stroke="#FFE094"></line>
+                    <line x1="0" y1="556.579048" x2="41.3278856" y2="580.88381" id="Solar-3-line" stroke="#FFE094"></line>
+                    <line x1="634.504597" y1="679.318095" x2="669.754852" y2="699.977143" id="Solar-3-line" stroke="#FFE094"></line>
+                    <polyline id="Solar-2-line" stroke="#FFE094" points="110.61287 352.419048 196.832461 302.594286 206.639428 308.995962"></polyline>
+                    <line x1="581.02145" y1="222.388571" x2="505.658836" y2="178.64" id="Solar-1-line" stroke="#FFE094"></line>
+                    <line x1="692.849847" y1="286.79619" x2="664.892748" y2="270.998095" id="Solar-1-line" stroke="#FFE094"></line>
+                    <line x1="142.216547" y1="576.77882" x2="215.14811" y2="534.704762" id="Wind-1-line" stroke="#95F495"></line>
+                    <polyline id="Wind-1-line" stroke="#95F495" points="342.778345 461.790476 300.234934 486.186759 342.778345 511.615238"></polyline>
+                    <polyline id="Hydro-2-line" stroke="#73DEFF" points="453.146861 582.099048 407.201226 608.458758 474.055158 647.721905"></polyline>
+                    <line x1="562.168926" y1="454.268817" x2="599.909585" y2="476.5466" id="Battery-1-line" stroke="#D89EEF"></line>
+                    <line x1="90.5448202" y1="425.103103" x2="117.906027" y2="441.131429" id="Battery-1-line" stroke="#D89EEF"></line>
+                    <polyline id="Battery-1-line" stroke="#D89EEF" points="663.677222 514.045714 720.806946 547.996642 692.308365 565.085714"></polyline>
+                    <polyline id="Battery-1-line" stroke="#D89EEF" points="386.253019 230.895238 405.9857 242.143024 367.088866 264.921905"></polyline>
+                    <line x1="421.787538" y1="172.56381" x2="365.87334" y2="205.375238" id="Battery-1-line" stroke="#D89EEF"></line>
+                </g>
+                <g id="Grid-1-Clipped">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="path-1"></g>
+                    <g id="Grid-1" mask="url(#mask-2)">
+                        <g transform="translate(61.991828, -274.643810)" id="Group">
+                            <g>
+                                <g transform="translate(0.000000, 303.809524)" fill="#9B9B9B" fill-rule="nonzero">
+                                    <polygon id="1" transform="translate(526.930529, 305.024769) rotate(60.000000) translate(-526.930529, -305.024769) " points="526.385217 -302.702212 527.600527 -302.702337 527.475841 912.75175 526.260531 912.751875"></polygon>
+                                    <polygon id="2" transform="translate(579.195918, 335.407009) rotate(60.000000) translate(-579.195918, -335.407009) " points="578.650607 -272.322548 579.865917 -272.322673 579.74123 943.136566 578.52592 943.136691"></polygon>
+                                    <polygon id="3" transform="translate(632.683457, 365.785426) rotate(60.000000) translate(-632.683457, -365.785426) " points="632.138146 -241.939059 633.353456 -241.939184 633.228769 973.50991 632.013459 973.510035"></polygon>
+                                    <polygon id="4" transform="translate(684.952131, 396.165770) rotate(60.000000) translate(-684.952131, -396.165770) " points="684.406819 -211.557498 685.622129 -211.557623 685.497443 1003.88904 684.282133 1003.88916"></polygon>
+                                    <polygon id="5" transform="translate(737.220805, 426.546114) rotate(60.000000) translate(-737.220805, -426.546114) " points="736.675493 -181.175937 737.890803 -181.176062 737.766117 1034.26817 736.550807 1034.26829"></polygon>
+                                    <polygon id="6" transform="translate(790.699694, 456.929524) rotate(60.000000) translate(-790.699694, -456.929524) " points="790.154382 -150.797443 791.369692 -150.797568 791.245005 1064.65649 790.029695 1064.65662"></polygon>
+                                    <polygon id="7" transform="translate(842.967314, 487.310476) rotate(60.000000) translate(-842.967314, -487.310476) " points="842.422002 -120.416491 843.637312 -120.416616 843.512625 1095.03744 842.297315 1095.03757"></polygon>
+                                    <polygon id="8" transform="translate(895.234934, 517.691429) rotate(60.000000) translate(-895.234934, -517.691429) " points="894.689622 -90.0355386 895.904932 -90.0356633 895.780245 1125.4184 894.564935 1125.41852"></polygon>
+                                    <polygon id="9" transform="translate(948.718080, 548.072381) rotate(60.000000) translate(-948.718080, -548.072381) " points="948.172768 -59.6545862 949.388078 -59.6547109 949.263391 1155.79935 948.048081 1155.79947"></polygon>
+                                    <polygon id="10" transform="translate(1000.985700, 578.453333) rotate(60.000000) translate(-1000.985700, -578.453333) " points="1000.44039 -29.2736338 1001.6557 -29.2737585 1001.53101 1186.1803 1000.3157 1186.18043"></polygon>
+                                    <polygon id="11" transform="translate(1053.253320, 608.834286) rotate(60.000000) translate(-1053.253320, -608.834286) " points="1052.70801 1.10731853 1053.92332 1.10719385 1053.79863 1216.56125 1052.58332 1216.56138"></polygon>
+                                    <polygon id="12" transform="translate(1106.736466, 639.215238) rotate(60.000000) translate(-1106.736466, -639.215238) " points="1106.19115 31.4882709 1107.40646 31.4881462 1107.28178 1246.94221 1106.06647 1246.94233"></polygon>
+                                    <polygon id="13" transform="translate(1159.004086, 669.596190) rotate(60.000000) translate(-1159.004086, -669.596190) " points="1158.45877 61.8692233 1159.67408 61.8690986 1159.5494 1277.32316 1158.33409 1277.32328"></polygon>
+                                    <polygon id="14" transform="translate(1211.271706, 699.977143) rotate(60.000000) translate(-1211.271706, -699.977143) " points="1210.72639 92.2501757 1211.9417 92.250051 1211.81702 1307.70411 1210.60171 1307.70423"></polygon>
+                                    <polygon id="15" transform="translate(1263.539326, 730.358095) rotate(60.000000) translate(-1263.539326, -730.358095) " points="1262.99401 122.631128 1264.20932 122.631003 1264.08464 1338.08506 1262.86933 1338.08519"></polygon>
+                                    <polygon id="16" transform="translate(1317.022472, 760.739048) rotate(60.000000) translate(-1317.022472, -760.739048) " points="1316.47716 153.01208 1317.69247 153.011956 1317.56778 1368.46601 1316.35247 1368.46614"></polygon>
+                                    <polygon id="17" transform="translate(1369.290092, 791.120000) rotate(60.000000) translate(-1369.290092, -791.120000) " points="1368.74478 183.393033 1369.96009 183.392908 1369.8354 1398.84697 1368.62009 1398.84709"></polygon>
+                                    <polygon id="18" transform="translate(1421.557712, 821.500952) rotate(60.000000) translate(-1421.557712, -821.500952) " points="1421.0124 213.773985 1422.22771 213.773861 1422.10302 1429.22792 1420.88771 1429.22804"></polygon>
+                                    <polygon id="19" transform="translate(1475.040858, 851.881905) rotate(60.000000) translate(-1475.040858, -851.881905) " points="1474.49555 244.154938 1475.71086 244.154813 1475.58617 1459.60887 1474.37086 1459.609"></polygon>
+                                    <polygon id="20" transform="translate(1527.308478, 882.262857) rotate(60.000000) translate(-1527.308478, -882.262857) " points="1526.76317 274.53589 1527.97848 274.535765 1527.85379 1489.98982 1526.63848 1489.98995"></polygon>
+                                    <polygon id="21" transform="translate(1579.576098, 912.643810) rotate(60.000000) translate(-1579.576098, -912.643810) " points="1579.03079 304.916842 1580.2461 304.916718 1580.12141 1520.37078 1578.9061 1520.3709"></polygon>
+                                </g>
+                                <g transform="translate(1053.677361, 912.865963) rotate(-60.000000) translate(-1053.677361, -912.865963) translate(526.677361, 1.365963)" fill="#9B9B9B" fill-rule="nonzero">
+                                    <rect id="1" x="0.16410679" y="0.606419189" width="1.21552605" height="1216.45333"></rect>
+                                    <rect id="2" x="54.5924071" y="30.9320572" width="1.21552605" height="1215.2381"></rect>
+                                    <rect id="3" x="106.307592" y="61.4205062" width="1.21552605" height="1215.2381"></rect>
+                                    <rect id="4" x="159.075453" y="91.3013362" width="1.21552605" height="1215.2381"></rect>
+                                    <rect id="5" x="212.451077" y="122.234593" width="1.21552605" height="1215.2381"></rect>
+                                    <rect id="6" x="265.8267" y="153.167851" width="1.21552605" height="1215.2381"></rect>
+                                    <rect id="7" x="316.934122" y="182.603872" width="1.21552605" height="1215.2381"></rect>
+                                    <rect id="8" x="371.970186" y="213.981937" width="1.21552605" height="1215.2381"></rect>
+                                    <rect id="9" x="423.68537" y="244.470387" width="1.21552605" height="1215.2381"></rect>
+                                    <rect id="10" x="474.792791" y="273.906409" width="1.21552605" height="1215.2381"></rect>
+                                    <rect id="11" x="528.168415" y="304.839665" width="1.21552605" height="1215.2381"></rect>
+                                    <rect id="12" x="581.544039" y="335.772922" width="1.21552605" height="1215.2381"></rect>
+                                    <rect id="13" x="634.311901" y="365.653752" width="1.21552605" height="1215.2381"></rect>
+                                    <rect id="14" x="686.027085" y="396.142202" width="1.21552605" height="1215.2381"></rect>
+                                    <rect id="15" x="738.794946" y="426.023032" width="1.21552605" height="1215.2381"></rect>
+                                    <rect id="16" x="792.170569" y="456.956288" width="1.21552605" height="1215.2381"></rect>
+                                    <rect id="17" x="844.93843" y="486.837119" width="1.21552605" height="1215.2381"></rect>
+                                    <rect id="18" x="896.653614" y="517.325567" width="1.21552605" height="1215.2381"></rect>
+                                    <rect id="19" x="949.421476" y="547.206397" width="1.21552605" height="1215.2381"></rect>
+                                    <rect id="20" x="1001.13666" y="577.694847" width="1.21552605" height="1215.2381"></rect>
+                                    <rect id="21" x="1052.24408" y="607.130868" width="1.21552605" height="1215.2381"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Shapes" transform="translate(397.000000, 140.000000)" fill-rule="nonzero">
+                <g id="Demand" transform="translate(0.000000, 334.037070)">
+                    <g id="Shadow" transform="translate(37.590327, 71.779474) rotate(-60.000000) translate(-37.590327, -71.779474) translate(18.590327, 40.279474)" fill="#000000">
+                        <g id="path-3-link" transform="translate(0.005823, 0.185255)">
+                            <polygon id="path-3" points="0.758182381 0.235456657 36.2377668 20.4243304 35.9766018 61.2643699 0.475840432 41.0812437"></polygon>
+                        </g>
+                    </g>
+                    <polygon id="Rectangle" fill="#EC2325" points="0.214106608 31.5816866 35.4407236 52.2469867 35.4407236 93.5331783 0.214106608 72.880185"></polygon>
+                    <polygon id="Rectangle" fill="#FF5760" transform="translate(35.422691, 31.588785) rotate(-60.000000) translate(-35.422691, -31.588785) " points="17.8240738 1.0887388 53.3121023 21.2632029 53.0424932 62.0888306 17.533279 41.9201161"></polygon>
+                    <polygon id="Rectangle" fill="#CC1D21" transform="translate(53.031580, 62.559425) scale(-1, 1) translate(-53.031580, -62.559425) " points="35.4231993 31.5816866 70.6399606 52.2446328 70.6399606 93.5371632 35.4231993 72.8933817"></polygon>
+                </g>
+                <g id="Demand" transform="translate(421.294993, 89.886339)">
+                    <g id="Shadow" transform="translate(37.590327, 71.779474) rotate(-60.000000) translate(-37.590327, -71.779474) translate(18.590327, 40.279474)" fill="#000000">
+                        <g id="path-5-link" transform="translate(0.005823, 0.185255)">
+                            <polygon id="path-5" points="0.758182381 0.235456657 36.2377668 20.4243304 35.9766018 61.2643699 0.475840432 41.0812437"></polygon>
+                        </g>
+                    </g>
+                    <polygon id="Rectangle" fill="#EC2325" points="0.214106608 31.5816866 35.4407236 52.2469867 35.4407236 93.5331783 0.214106608 72.880185"></polygon>
+                    <polygon id="Rectangle" fill="#FF5760" transform="translate(35.422691, 31.588785) rotate(-60.000000) translate(-35.422691, -31.588785) " points="17.8240738 1.0887388 53.3121023 21.2632029 53.0424932 62.0888306 17.533279 41.9201161"></polygon>
+                    <polygon id="Rectangle" fill="#CC1D21" transform="translate(53.031580, 62.559425) scale(-1, 1) translate(-53.031580, -62.559425) " points="35.4231993 31.5816866 70.6399606 52.2446328 70.6399606 93.5371632 35.4231993 72.8933817"></polygon>
+                </g>
+                <g id="Rooftop-Solar" transform="translate(53.420691, 536.888672)">
+                    <g id="Demand" transform="translate(0.000000, 6.073401)">
+                        <g id="Shadow" transform="translate(37.590327, 71.779474) rotate(-60.000000) translate(-37.590327, -71.779474) translate(18.590327, 40.279474)" fill="#000000">
+                            <g id="path-7-link" transform="translate(0.005823, 0.185255)">
+                                <polygon id="path-7" points="0.758182381 0.235456657 36.2377668 20.4243304 35.9766018 61.2643699 0.475840432 41.0812437"></polygon>
+                            </g>
+                        </g>
+                        <polygon id="Rectangle" fill="#EC2325" points="0.214106608 31.5816866 35.4407236 52.2469867 35.4407236 93.5331783 0.214106608 72.880185"></polygon>
+                        <polygon id="Rectangle" fill="#FF5760" transform="translate(35.422691, 31.588785) rotate(-60.000000) translate(-35.422691, -31.588785) " points="17.8240738 1.0887388 53.3121023 21.2632029 53.0424932 62.0888306 17.533279 41.9201161"></polygon>
+                        <polygon id="Rectangle" fill="#CC1D21" transform="translate(53.031580, 62.559425) scale(-1, 1) translate(-53.031580, -62.559425) " points="35.4231993 31.5816866 70.6399606 52.2446328 70.6399606 93.5371632 35.4231993 72.8933817"></polygon>
+                    </g>
+                    <g id="Rectangle">
+                        <polygon id="Path" fill="#F4C34A" points="0.214106608 31.5816866 35.4407236 52.2469867 35.4407236 58.3888731 0.214106608 37.7278915"></polygon>
+                        <polygon id="Path" fill="#FFE094" transform="translate(35.422691, 31.588785) rotate(-60.000000) translate(-35.422691, -31.588785) " points="17.8240738 1.0887388 53.3121023 21.2632029 53.0424932 62.0888306 17.533279 41.9201161"></polygon>
+                        <polygon id="Path" fill="#E6B721" transform="translate(53.031580, 44.996994) scale(-1, 1) translate(-53.031580, -44.996994) " points="35.4231993 31.5816866 70.6399606 52.2446328 70.6399606 58.4123008 35.4231993 37.6679879"></polygon>
+                    </g>
+                </g>
+                <g id="Rooftop-Solar" transform="translate(421.294993, 325.534308)">
+                    <g id="Demand" transform="translate(0.000000, 6.073401)">
+                        <g id="Shadow" transform="translate(37.590327, 71.779474) rotate(-60.000000) translate(-37.590327, -71.779474) translate(18.590327, 40.279474)" fill="#000000">
+                            <g id="path-9-link" transform="translate(0.005823, 0.185255)">
+                                <polygon id="path-9" points="0.758182381 0.235456657 36.2377668 20.4243304 35.9766018 61.2643699 0.475840432 41.0812437"></polygon>
+                            </g>
+                        </g>
+                        <polygon id="Rectangle" fill="#EC2325" points="0.214106608 31.5816866 35.4407236 52.2469867 35.4407236 93.5331783 0.214106608 72.880185"></polygon>
+                        <polygon id="Rectangle" fill="#FF5760" transform="translate(35.422691, 31.588785) rotate(-60.000000) translate(-35.422691, -31.588785) " points="17.8240738 1.0887388 53.3121023 21.2632029 53.0424932 62.0888306 17.533279 41.9201161"></polygon>
+                        <polygon id="Rectangle" fill="#CC1D21" transform="translate(53.031580, 62.559425) scale(-1, 1) translate(-53.031580, -62.559425) " points="35.4231993 31.5816866 70.6399606 52.2446328 70.6399606 93.5371632 35.4231993 72.8933817"></polygon>
+                    </g>
+                    <g id="Rectangle">
+                        <polygon id="Path" fill="#F4C34A" points="0.214106608 31.5816866 35.4407236 52.2469867 35.4407236 58.3888731 0.214106608 37.7278915"></polygon>
+                        <polygon id="Path" fill="#FFE094" transform="translate(35.422691, 31.588785) rotate(-60.000000) translate(-35.422691, -31.588785) " points="17.8240738 1.0887388 53.3121023 21.2632029 53.0424932 62.0888306 17.533279 41.9201161"></polygon>
+                        <polygon id="Path" fill="#E6B721" transform="translate(53.031580, 44.996994) scale(-1, 1) translate(-53.031580, -44.996994) " points="35.4231993 31.5816866 70.6399606 52.2446328 70.6399606 58.4123008 35.4231993 37.6679879"></polygon>
+                    </g>
+                </g>
+                <g id="Rooftop-Solar" transform="translate(683.542021, 659.571378)">
+                    <g id="Demand" transform="translate(0.000000, 6.073401)">
+                        <g id="Shadow" transform="translate(37.590327, 71.779474) rotate(-60.000000) translate(-37.590327, -71.779474) translate(18.590327, 40.279474)" fill="#000000">
+                            <g id="path-11-link" transform="translate(0.005823, 0.185255)">
+                                <polygon id="path-11" points="0.758182381 0.235456657 36.2377668 20.4243304 35.9766018 61.2643699 0.475840432 41.0812437"></polygon>
+                            </g>
+                        </g>
+                        <polygon id="Rectangle" fill="#EC2325" points="0.214106608 31.5816866 35.4407236 52.2469867 35.4407236 93.5331783 0.214106608 72.880185"></polygon>
+                        <polygon id="Rectangle" fill="#FF5760" transform="translate(35.422691, 31.588785) rotate(-60.000000) translate(-35.422691, -31.588785) " points="17.8240738 1.0887388 53.3121023 21.2632029 53.0424932 62.0888306 17.533279 41.9201161"></polygon>
+                        <polygon id="Rectangle" fill="#CC1D21" transform="translate(53.031580, 62.559425) scale(-1, 1) translate(-53.031580, -62.559425) " points="35.4231993 31.5816866 70.6399606 52.2446328 70.6399606 93.5371632 35.4231993 72.8933817"></polygon>
+                    </g>
+                    <g id="Rectangle">
+                        <polygon id="Path" fill="#F4C34A" points="0.214106608 31.5816866 35.4407236 52.2469867 35.4407236 58.3888731 0.214106608 37.7278915"></polygon>
+                        <polygon id="Path" fill="#FFE094" transform="translate(35.422691, 31.588785) rotate(-60.000000) translate(-35.422691, -31.588785) " points="17.8240738 1.0887388 53.3121023 21.2632029 53.0424932 62.0888306 17.533279 41.9201161"></polygon>
+                        <polygon id="Path" fill="#E6B721" transform="translate(53.031580, 44.996994) scale(-1, 1) translate(-53.031580, -44.996994) " points="35.4231993 31.5816866 70.6399606 52.2446328 70.6399606 58.4123008 35.4231993 37.6679879"></polygon>
+                    </g>
+                </g>
+                <g id="EV" transform="translate(46.937313, 387.483001)">
+                    <g id="Shadow" transform="translate(20.802703, 33.940674) rotate(-60.000000) translate(-20.802703, -33.940674) translate(12.802703, 14.940674)" fill="#000000">
+                        <g id="path-13-link" transform="translate(0.006469, 0.190272)">
+                            <polygon id="path-13" points="0.65912488 0.015735063 15.2916648 8.40615301 14.8349886 36.7165565 0.179388137 28.3454514"></polygon>
+                        </g>
+                    </g>
+                    <polygon id="Rectangle" fill="#C077DB" points="0.626951387 13.3620017 24.9266089 27.9533817 24.9266089 48.6006477 0.626951387 34.0150135"></polygon>
+                    <polygon id="Rectangle" fill="#D89EEF" transform="translate(20.050882, 16.416978) rotate(-60.000000) translate(-20.050882, -16.416978) " points="12.9757271 -1.92548303 27.6117366 6.4589694 27.1491092 34.759439 12.4900271 26.3942972"></polygon>
+                    <polygon id="Rectangle" fill="#AA5ACC" transform="translate(32.228849, 34.017729) scale(-1, 1) translate(-32.228849, -34.017729) " points="24.9740729 19.435681 39.5486135 27.9510277 39.5486135 48.5997766 24.9090844 40.1514693"></polygon>
+                </g>
+                <g id="EV" transform="translate(467.018199, 385.053640)">
+                    <g id="Shadow" transform="translate(20.802703, 33.940674) rotate(-60.000000) translate(-20.802703, -33.940674) translate(12.802703, 14.940674)" fill="#000000">
+                        <g id="path-15-link" transform="translate(0.006469, 0.190272)">
+                            <polygon id="path-15" points="0.65912488 0.015735063 15.2916648 8.40615301 14.8349886 36.7165565 0.179388137 28.3454514"></polygon>
+                        </g>
+                    </g>
+                    <polygon id="Rectangle" fill="#C077DB" points="0.626951387 13.3620017 24.9266089 27.9533817 24.9266089 48.6006477 0.626951387 34.0150135"></polygon>
+                    <polygon id="Rectangle" fill="#D89EEF" transform="translate(20.050882, 16.416978) rotate(-60.000000) translate(-20.050882, -16.416978) " points="12.9757271 -1.92548303 27.6117366 6.4589694 27.1491092 34.759439 12.4900271 26.3942972"></polygon>
+                    <polygon id="Rectangle" fill="#AA5ACC" transform="translate(32.228849, 34.017729) scale(-1, 1) translate(-32.228849, -34.017729) " points="24.9740729 19.435681 39.5486135 27.9510277 39.5486135 48.5997766 24.9090844 40.1514693"></polygon>
+                </g>
+                <g id="Solar-3" transform="translate(257.604708, 649.655826)">
+                    <g id="Shadow" transform="translate(41.574208, 50.280762) rotate(-60.000000) translate(-41.574208, -50.280762) translate(22.574208, 18.780762)" fill="#000000">
+                        <g id="path-17-link" transform="translate(0.610053, 0.536013)">
+                            <polygon id="path-17" points="0.863300148 0.235456657 36.3428845 20.4243304 36.0817195 61.2643699 0.580958199 41.0812437"></polygon>
+                        </g>
+                    </g>
+                    <polygon id="Rectangle-2" fill="#E6B721" points="41.2796247 0 82.5785162 46.1795721 41.2796247 70.4514547"></polygon>
+                    <polygon id="Rectangle-2" fill="#FFE094" transform="translate(20.649447, 35.225727) scale(-1, 1) translate(-20.649447, -35.225727) " points="1.09269598e-06 -1.3500312e-13 41.2988926 46.1795721 1.09269598e-06 70.4514547"></polygon>
+                </g>
+                <g id="Solar-2" transform="translate(205.398123, 304.884744)">
+                    <g id="Shadow" transform="translate(42.232647, 43.841828) rotate(-60.000000) translate(-42.232647, -43.841828) translate(23.232647, 12.341828)" fill="#000000">
+                        <g id="path-19-link" transform="translate(0.005823, 0.185255)">
+                            <polygon id="path-19" points="0.758182381 0.235456657 36.2377668 20.4243304 35.9766018 61.2643699 0.475840432 41.0812437"></polygon>
+                        </g>
+                    </g>
+                    <polygon id="Rectangle-2" fill="#E6B721" points="41.2796247 0 82.5785162 46.1795721 41.2796247 70.4514547"></polygon>
+                    <polygon id="Rectangle-2" fill="#FFE094" transform="translate(20.649447, 35.225727) scale(-1, 1) translate(-20.649447, -35.225727) " points="1.09269594e-06 0 41.2988926 46.1795721 1.09269594e-06 70.4514547"></polygon>
+                </g>
+                <g id="Solar-1" transform="translate(574.486532, 212.569044)">
+                    <g id="Shadow" transform="translate(42.232647, 43.841828) rotate(-60.000000) translate(-42.232647, -43.841828) translate(23.232647, 12.341828)" fill="#000000">
+                        <g id="path-21-link" transform="translate(0.005823, 0.185255)">
+                            <polygon id="path-21" points="0.758182381 0.235456657 36.2377668 20.4243304 35.9766018 61.2643699 0.475840432 41.0812437"></polygon>
+                        </g>
+                    </g>
+                    <polygon id="Rectangle-2" fill="#E6B721" points="41.2796247 0 82.5785162 46.1795721 41.2796247 70.4514547"></polygon>
+                    <polygon id="Rectangle-2" fill="#FFE094" transform="translate(20.649447, 35.225727) scale(-1, 1) translate(-20.649447, -35.225727) " points="1.09269594e-06 0 41.2988926 46.1795721 1.09269594e-06 70.4514547"></polygon>
+                </g>
+                <g id="Wind-1" transform="translate(308.597185, 489.516142)">
+                    <g id="Shadow" transform="translate(42.232647, 43.841828) rotate(-60.000000) translate(-42.232647, -43.841828) translate(23.232647, 12.341828)" fill="#000000">
+                        <g id="path-25-link" transform="translate(0.005823, 0.185255)">
+                            <polygon id="path-25" points="0.758182381 0.235456657 36.2377668 20.4243304 35.9766018 61.2643699 0.475840432 41.0812437"></polygon>
+                        </g>
+                    </g>
+                    <polygon id="Rectangle-2" fill="#65DB64" points="41.2796247 0 82.5785162 46.1795721 41.2796247 70.4514547"></polygon>
+                    <polygon id="Rectangle-2" fill="#95F495" transform="translate(20.649447, 35.225727) scale(-1, 1) translate(-20.649447, -35.225727) " points="1.09269594e-06 0 41.2988926 46.1795721 1.09269594e-06 70.4514547"></polygon>
+                </g>
+                <g id="Hydro-2" transform="translate(468.859257, 638.921813)">
+                    <g id="Shadow" transform="translate(42.232647, 43.841828) rotate(-60.000000) translate(-42.232647, -43.841828) translate(23.232647, 12.341828)" fill="#000000">
+                        <g id="path-27-link" transform="translate(0.005823, 0.185255)">
+                            <polygon id="path-27" points="0.758182381 0.235456657 36.2377668 20.4243304 35.9766018 61.2643699 0.475840432 41.0812437"></polygon>
+                        </g>
+                    </g>
+                    <polygon id="Rectangle-2" fill="#3CCDEF" points="41.2796247 0 82.5785162 46.1795721 41.2796247 70.4514547"></polygon>
+                    <polygon id="Rectangle-2" fill="#73DEFF" transform="translate(20.649447, 35.225727) scale(-1, 1) translate(-20.649447, -35.225727) " points="1.09269594e-06 0 41.2988926 46.1795721 1.09269594e-06 70.4514547"></polygon>
+                </g>
+                <g id="Battery-3" transform="translate(607.267411, 460.363816)">
+                    <g id="Shadow" transform="translate(4.856426, 40.084448)" fill="#000000">
+                        <ellipse id="path-31" cx="16.3904392" cy="9.1101019" rx="16.3904392" ry="9.1101019"></ellipse>
+                    </g>
+                    <path d="M0,48.853847 L0,10.9321223 L41.2796247,10.9321223 L41.2796247,48.8538473 C41.2796247,54.7442321 32.0388659,59.5193324 20.6398123,59.5193324 C9.24075874,59.5193324 0,54.7442321 0,48.8538473 L0,48.853847 Z" id="Combined-Shape" fill="url(#linearGradient-3)"></path>
+                    <ellipse id="Oval" fill="#D89EEF" cx="20.6398123" cy="10.9321223" rx="20.6398123" ry="10.9321223"></ellipse>
+                </g>
+                <g id="Battery-2" transform="translate(699.539513, 266.014976)">
+                    <g id="Shadow" transform="translate(4.856426, 40.084448)" fill="#000000">
+                        <ellipse id="path-34" cx="16.3904392" cy="9.1101019" rx="16.3904392" ry="9.1101019"></ellipse>
+                    </g>
+                    <path d="M0,48.853847 L0,10.9321223 L41.2796247,10.9321223 L41.2796247,48.8538473 C41.2796247,54.7442321 32.0388659,59.5193324 20.6398123,59.5193324 C9.24075874,59.5193324 0,54.7442321 0,48.8538473 L0,48.853847 Z" id="Combined-Shape" fill="url(#linearGradient-3)"></path>
+                    <ellipse id="Oval" fill="#D89EEF" cx="20.6398123" cy="10.9321223" rx="20.6398123" ry="10.9321223"></ellipse>
+                </g>
+                <g id="Battery-1" transform="translate(330.451104, 174.913957)">
+                    <g id="Shadow" transform="translate(4.856426, 40.084448)" fill="#000000">
+                        <ellipse id="path-36" cx="16.3904392" cy="9.1101019" rx="16.3904392" ry="9.1101019"></ellipse>
+                    </g>
+                    <path d="M0,48.853847 L0,10.9321223 L41.2796247,10.9321223 L41.2796247,48.8538473 C41.2796247,54.7442321 32.0388659,59.5193324 20.6398123,59.5193324 C9.24075874,59.5193324 0,54.7442321 0,48.8538473 L0,48.853847 Z" id="Combined-Shape" fill="url(#linearGradient-3)"></path>
+                    <ellipse id="Oval" fill="#D89EEF" cx="20.6398123" cy="10.9321223" rx="20.6398123" ry="10.9321223"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

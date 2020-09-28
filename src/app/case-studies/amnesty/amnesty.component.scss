@@ -1,0 +1,16 @@
+.background {
+    background-color: #f7ec42;
+    h2,h3,p {
+        color: black;
+    }
+}
+.final-product {
+    background: linear-gradient(to bottom, white 0%,white 50%,#f7ec42 50%,#f7ec42 100%); /* W3C */
+}
+
+//full-width image path
+.hero-image {
+    background-image: url("/assets/img/amnesty/amnesty-cover.png"); 
+    height: 50vh; /* You must set a specified height */
+    
+}

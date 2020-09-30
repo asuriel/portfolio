@@ -1,0 +1,67 @@
+$padding-h: 4vw;
+$padding-v: 4vw;
+
+.container {
+    margin-top: 5vh;
+    height:90vh;
+    display: grid;
+    gap:3px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-template-areas: 
+    "header header animation animation"
+    "headline headline animation animation"
+    "portfolio portfolio-picture about about-picture";
+    background-color: black;
+    div {
+        background-color: white;
+    }
+    border-top: 3px black solid;
+}
+.title {
+    grid-area: header;
+    h1 {
+        font-size: 7rem;
+        text-transform: uppercase;
+    }
+}
+.headline {
+    grid-area: headline;
+    h2 {
+        font-family: neue-haas-unica;
+        font-weight: 400;
+    }
+    text-transform: uppercase;
+}
+.portfolio, .about {
+    h3 {
+        font-style: normal;
+    }
+}
+.title, .headline, .portfolio, .about {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 $padding-h;
+}
+.animation {
+    grid-area: animation;
+    overflow: hidden;
+}
+.portfolio {
+    grid-area: portfolio;
+}
+.portfolio-picture {
+    grid-area: portfolio-picture;
+}
+.about{
+    grid-area: about;
+}
+.about-picture {
+    grid-area: about-picture;
+}
+
+
+
+
+

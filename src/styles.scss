@@ -1,9 +1,5 @@
-@import 'fonts';
-
-$gap-width: 40px;
-$padding-vertical:2.5vh;
-$padding-horizontal:16vw;
-
+// @import 'fonts';
+@import 'variables';
 
 html,
 input {
@@ -15,12 +11,14 @@ input {
 
 body, h1,h2,h3,h4,h5,h6,p {
     margin:0;
-    color:#414141;
+    // color:#414141;
+    color: black;
     line-height: 1.2; 
 }
 a {
     text-decoration: none;
-    color: #414141;
+    // color: #414141;
+    color: black;
 }
 
 //typography hierarchy for desktop
@@ -30,70 +28,78 @@ a {
 */ 
 
 body {
-    font-family: mr-eaves-sans, sans-serif;
-    font-weight: 200;
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 100;
     font-style: normal;
-    // font-size: 32px;
-    font-size: 28px;
+    // font-size: 28px;
+    font-size: 140%;
     
 }
 
 h1 {
-    font-family: "Optima Bold", serif;
-    font-size: 60px;
+    font-family: Caudex, serif;
+    // font-size: 60px;
+    font-size: 220%;
+    font-weight: 700;
     // font-size: 2em;
 }
 h2 {
-    font-family: "Optima Bold", serif;
-    font-size: 40px;
+    font-family: Caudex, serif;
+    // font-size: 40px;
+    font-size: 200%;
+    font-weight: 700;
     // font-size: 1.8em;
 } 
 
 h3 {
-    font-family: mr-eaves-sans, sans-serif;
-    font-weight: 200;
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 100;
     font-style: italic;
-    font-size: 30px;
+    // font-size: 30px;
+    font-size: 120%;
     // font-size: 1.2em;
 }
 
 h4 {
-    font-family: mr-eaves-sans, sans-serif;
+    font-family: neue-haas-unica, sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 30px;
+    // font-size: 30px;
+    font-size: 80%;
     // font-size: 1.2em;
     text-transform: uppercase;
     }
 
 h5, figcaption {
-    font-family: mr-eaves-sans, sans-serif;
+    font-family: neue-haas-unica, sans-serif;
     font-weight: 200;
     font-style: normal;
-    font-size: 20px;
+    // font-size: 20px;
+    font-size: 110%;
     // font-size: 1em;
     text-transform: uppercase;
 }
 
 q {
-    font-family: mr-eaves-sans, sans-serif;
+    font-family: neue-haas-unica, sans-serif;
     font-weight: 800;
     font-style: normal;
     font-size: 44px;
 }
 
 .small-text {
-    font-family: mr-eaves-sans, sans-serif;
-    font-weight: 400;
+    font-family: neue-haas-unica, sans-serif;
+    font-weight: 100;
     font-style: normal;
-    font-size: 18px;
+    // font-size: 18px;
+    font-size: 60%;
     // font-size: 0.8em;
     margin:0;
 }
 
 // case study layout styles
 
-//mobile
+//tablet
 @media only screen and (max-width: 800px){
     .summary .details {
         display: grid;
@@ -108,7 +114,7 @@ q {
 @media only screen and (min-width: 800px){
     .summary {
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 3fr;
         grid-template-rows: 2;
         column-gap: $gap-width;
 
@@ -131,15 +137,15 @@ q {
 
     .chapter {
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 3fr;
         column-gap: $gap-width;
 
         .chapter-title {
-            padding: $padding-vertical 0;
+            padding: $padding-vertical-casestudy 0;
         }
         .chapter-content, .chapter-image {
             grid-column-start: 2;
-            padding: $padding-vertical 0;
+            padding: $padding-vertical-casestudy 0;
         }
         .chapter-image img{
             max-width: 100%;
@@ -149,7 +155,7 @@ q {
 
     header {
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 3fr;
         column-gap: $gap-width;
         .page-subtitle, .page-title {
             grid-column-start: 2;
@@ -173,24 +179,28 @@ q {
 }
 
 .final-product img{
-    // width:70vw;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+    padding-left: $padding-horizontal-casestudy;
+    max-width: $full-width-image;
+
+    @media screen and (max-width: 375px) {
+       max-width: 80%;
+       padding-left: $padding-horizontal-casestudy; 
+    }
 }
 
 .end-chapter img{
-    width:80vw;
+    // width:100%;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    padding-bottom: $padding-vertical;
+    max-width: $full-width-image;
+    padding-bottom: $padding-vertical-casestudy;
 }
 
 figure {
     margin:0;
     figcaption {
-        padding-left: $padding-horizontal;
+        padding-left: $padding-horizontal-casestudy;
     }
 }
 
@@ -198,22 +208,24 @@ figure {
 
 //fixing spacing in summary text
 .summary .details {
-    padding-bottom: (2*$padding-vertical);
+    padding-bottom: (2*$padding-vertical-casestudy);
 
     div h4{
-        padding-bottom: (0.25*$padding-vertical);
+        padding-bottom: (0.25*$padding-vertical-casestudy
+);
     }
     div p {
-        padding-bottom: (0.5*$padding-vertical); 
+        padding-bottom: (0.5*$padding-vertical-casestudy
+); 
     }
 }
 
 //horizontal and vertical padding for each element
 article {
-    padding: (3*$padding-vertical) $padding-horizontal;
+    padding: (3*$padding-vertical-casestudy) $padding-horizontal-casestudy;
 }
 header {
-    padding: $padding-vertical $padding-horizontal;
+    padding: $padding-vertical-casestudy $padding-horizontal-casestudy;
 }
 
 

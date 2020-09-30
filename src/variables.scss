@@ -1,0 +1,12 @@
+$nav-width: 5vw;
+
+$gap-width: 40px;
+
+//case studies
+$content-width: 100vw - 2*$nav-width;
+
+$padding-vertical-casestudy: 2.5vh;
+$padding-horizontal-casestudy: 6vw;
+
+
+$full-width-image: $content-width - ($padding-horizontal-casestudy*2);

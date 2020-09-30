@@ -1,8 +1,25 @@
-<nav>
-  <!-- <ul>
+<!-- <nav>
+  <ul>
     <li><a routerLink="ux/seaborg" routerLinkActive="active">Seaborg</a></li>
     <li><a routerLink="ux/forecast" routerLinkActive="active">Forecast</a></li>
-  </ul> -->
-</nav>
-
-<router-outlet></router-outlet>
+  </ul>
+</nav> -->
+<div class="main-container">
+  <nav>
+    <ul>
+      <li>Home</li>
+      <li>Work</li>
+      <li>About</li>
+    </ul>
+  </nav>
+  <div class="main-content">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="social-media">
+    <img src="assets/img/social-media/behance.svg" alt="">
+    <img src="assets/img/social-media/email.svg" alt="">
+    <img src="assets/img/social-media/insta.svg" alt="">
+    <img src="assets/img/social-media/linkedin.svg" alt="">
+    
+  </div>
+</div>

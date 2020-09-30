@@ -2,8 +2,8 @@
 
 //layout
 .container {
-    margin-top: 5vh;
-    height:90vh;
+    // margin-top: 5vh;
+    height:100vh;
     gap:3px;
     display: grid;
     
@@ -11,8 +11,18 @@
     div {
         background-color: white;
     }
-    border-top: 3px black solid;
+    .title {
+        background-color: #F9CC12;
+    }
+    .portfolio-picture {
+        background-color: #FA6333; 
+    }
+    .about-picture {
+        background-color: #3094A5
+    }
+    // border-top: 3px black solid;
 }
+
 
 //tablet and mobile layout 
 @media screen and (max-width: 800px){
@@ -107,15 +117,6 @@
     grid-area: about-picture;
 }
 
-// svg #sun{
-//     stroke-width: 1;
-// }
-// svg #sea{
-//     stroke-width: 1;
-// }
-// svg #moon{
-//     stroke-width: 1;
-// }
 
 
 

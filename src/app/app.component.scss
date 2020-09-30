@@ -1,12 +1,23 @@
 @import 'mixins';
 @import 'src/variables';
 
+//nav states
+.active-link {
+    text-decoration: underline;
+}
+
+.nav-link {
+    outline: 0;
+}
+nav ul li:hover {
+    font-style: italic;
+}
 
 //reponsive layout
 //for mobile and tablet
 @media only screen and(max-width: 800px){
     .main-container {
-        background-color: blue;
+        // background-color: blue;
     }
 }
 //desktop sizes
@@ -41,12 +52,13 @@
         grid-area: nav;
         line-height: 70px;
         justify-self: right;
+        // display: flex;
     
         border-right: 3px black solid;
 
-
         ul {
             margin:0;
+            padding:0;
             list-style: none; 
             text-transform: uppercase;
             @include transform(rotate(90deg));
@@ -55,6 +67,23 @@
             display: inline;
             padding: 0 20px;
         }
+        //fix the mobile size
+        .logo {
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            padding-top: $padding-vertical-casestudy;
+
+            svg circle:hover{
+                fill: #FA6333;
+                
+            }
+        }
+        // .logo:hover {
+        //     svg img {
+        //     }
+        // }
     }
 
     .main-content {

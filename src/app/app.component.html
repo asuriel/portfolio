@@ -6,10 +6,21 @@
 </nav> -->
 <div class="main-container">
   <nav>
+    <div class="logo">
+      <svg routerLink="home" class="nav-link" routerLinkActive="active-link" height="100%" width='100%' viewBox="0 0 100 100">
+        <circle id="sun" cx="50" cy="50" r="50" stroke="black" stroke-width="0" fill="#F9CC12"/>
+      </svg>
+
+    </div>
     <ul>
-      <li>Home</li>
-      <li>Work</li>
-      <li>About</li>
+      <li 
+        routerLink="ux/seaborg"
+        class="nav-link"
+        routerLinkActive="active-link">Work</li>
+      <li 
+        routerLink="about"
+        class="nav-link"
+        routerLinkActive="active-link">About</li>
     </ul>
   </nav>
   <div class="main-content">

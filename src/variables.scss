@@ -2,8 +2,13 @@ $nav-width: 5vw;
 
 $gap-width: 40px;
 
+//top and bottom padding
+$padding-h: 4vw;
+$padding-v: 4vw;
+
 //case studies
 $content-width: 100vw - 2*$nav-width;
+//the 6px is for the border of the nav
 
 $padding-vertical-casestudy: 2.5vh;
 $padding-horizontal-casestudy: 6vw;

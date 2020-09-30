@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
-    <title>Artboard Copy 9</title>
+    <title>Artboard Copy 3</title>
     <desc>Created with Sketch.</desc>
-    <g id="Artboard-Copy-9" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-3-Copy-2" transform="translate(8.000000, 9.000000)" fill="#232325" fill-opacity="0.5">
-            <path d="M27.293,-2.27373675e-13 C42.343,-2.27373675e-13 54.586,12.243 54.586,27.293 C54.586,42.342 42.343,54.586 27.293,54.586 C12.245,54.586 6.82121026e-13,42.342 6.82121026e-13,27.293 C6.82121026e-13,12.243 12.245,-2.27373675e-13 27.293,-2.27373675e-13 Z M36.626,16.145 L18.448,16.145 C14.577,16.145 11.439,19.283 11.439,23.154 L11.439,31.674 C11.439,35.545 14.577,38.683 18.448,38.683 L36.626,38.683 C40.497,38.683 43.635,35.545 43.635,31.674 L43.635,23.154 C43.635,19.283 40.497,16.145 36.626,16.145 Z" id="Combined-Shape"></path>
+    <g id="Artboard-Copy-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3-Copy-2" transform="translate(8.000000, 9.000000)">
+            <path d="M27.293,54.586 C12.245,54.586 1.13686838e-13,42.342 1.13686838e-13,27.293 C1.13686838e-13,12.243 12.245,1.47792889e-12 27.293,1.47792889e-12 C42.343,1.47792889e-12 54.586,12.243 54.586,27.293 C54.586,42.342 42.343,54.586 27.293,54.586" id="Fill-73" fill="#232325"></path>
+            <path d="M43.635,23.154 C43.635,19.283 40.497,16.145 36.626,16.145 L18.448,16.145 C14.577,16.145 11.439,19.283 11.439,23.154 L11.439,31.674 C11.439,35.545 14.577,38.683 18.448,38.683 L36.626,38.683 C40.497,38.683 43.635,35.545 43.635,31.674 L43.635,23.154 L43.635,23.154 Z" id="Fill-74" fill="#FFFFFE"></path>
         </g>
-        <line x1="20.5" y1="26.5" x2="35.5" y2="37.5" id="Line-3" stroke="#919191" stroke-width="2" stroke-linecap="square"></line>
-        <line x1="50.7630521" y1="26.8729076" x2="35.6661755" y2="37.7395684" id="Line-3-Copy" stroke="#919191" stroke-width="2" stroke-linecap="square"></line>
+        <line x1="20.5" y1="26.5" x2="35.5" y2="37.5" id="Line-3" stroke="#000000" stroke-width="2" stroke-linecap="square"></line>
+        <line x1="50.7630521" y1="26.8729076" x2="35.6661755" y2="37.7395684" id="Line-3-Copy" stroke="#000000" stroke-width="2" stroke-linecap="square"></line>
     </g>
 </svg>

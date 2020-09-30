@@ -1,5 +1,5 @@
 @import 'mixins';
-@import '../variables';
+@import 'src/variables';
 
 
 //reponsive layout
@@ -35,15 +35,12 @@
 @media only screen and (min-width: 800px) {
     .main-container {
         grid-template-areas: "nav content social";
-
-        // background-color: brown; 
     }
 
     nav {
         grid-area: nav;
         line-height: 70px;
         justify-self: right;
-       
     
         border-right: 3px black solid;
 
@@ -65,13 +62,13 @@
     }
 
     .social-media {
-        
         grid-area: social;
         justify-self: left;
 
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        padding-bottom: 5vh;
         border-left: 3px black solid;
 
     }

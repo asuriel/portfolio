@@ -1,11 +1,33 @@
 // @import 'fonts';
 @import 'variables';
 
+//box-sizing to all elements to get correct sizing
+* {
+    box-sizing: border-box;
+}
+
 html,
 input {
     //for smoothing fonts in high density screens
     -webkit-font-smoothing: antialiased;
 }
+html {
+    //set base font
+    font-size: 16px;
+    
+}
+
+
+@media screen and (min-width: 320px) {
+    html {
+      font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    html {
+      font-size: 22px;
+    }
+  }
 
 ///rest of css here
 
@@ -32,7 +54,7 @@ body {
     font-weight: 100;
     font-style: normal;
     // font-size: 28px;
-    font-size: 140%;
+    font-size: 110%;
     
 }
 
@@ -51,13 +73,13 @@ h2 {
     // font-size: 1.8em;
 } 
 
+//there's only 3 levels of type...
 h3 {
     font-family: neue-haas-unica, sans-serif;
     font-weight: 100;
     font-style: italic;
     // font-size: 30px;
-    font-size: 120%;
-    // font-size: 1.2em;
+    font-size: 80%;
 }
 
 h4 {
@@ -66,7 +88,6 @@ h4 {
     font-style: normal;
     // font-size: 30px;
     font-size: 80%;
-    // font-size: 1.2em;
     text-transform: uppercase;
     }
 
@@ -75,8 +96,7 @@ h5, figcaption {
     font-weight: 200;
     font-style: normal;
     // font-size: 20px;
-    font-size: 110%;
-    // font-size: 1em;
+    font-size: 70%;
     text-transform: uppercase;
 }
 
@@ -84,7 +104,7 @@ q {
     font-family: neue-haas-unica, sans-serif;
     font-weight: 800;
     font-style: normal;
-    font-size: 44px;
+    font-size: 160%;
 }
 
 .small-text {
@@ -93,13 +113,14 @@ q {
     font-style: normal;
     // font-size: 18px;
     font-size: 60%;
-    // font-size: 0.8em;
     margin:0;
 }
 
+
+
 // case study layout styles
 
-//tablet
+//tablet & mobile
 @media only screen and (max-width: 800px){
     .summary .details {
         display: grid;
@@ -108,6 +129,12 @@ q {
         column-gap: $gap-width; 
 
     }
+
+    .chapter-content {
+        padding-top: $padding-vertical-casestudy;
+        padding-bottom: $padding-vertical-casestudy;
+    }
+        
 }
 
 //for desktop
@@ -147,9 +174,7 @@ q {
             grid-column-start: 2;
             padding: $padding-vertical-casestudy 0;
         }
-        .chapter-image img{
-            max-width: 100%;
-        }
+        
     }
 
 
@@ -175,8 +200,34 @@ q {
             max-width: 100%;
         }
     }
-
+    
 }
+
+//for desk and mobile
+
+///spacing 
+
+    //fixing spacing in summary text
+    .summary .details {
+        padding-bottom: (2*$padding-vertical-casestudy);
+
+        div h4{
+            padding-bottom: (0.25*$padding-vertical-casestudy
+    );
+        }
+        div p {
+            padding-bottom: (0.5*$padding-vertical-casestudy
+    ); 
+        }
+    }
+
+    //horizontal and vertical padding for each element
+    article {
+        padding: (3*$padding-vertical-casestudy) $padding-horizontal-casestudy;
+    }
+    header {
+        padding: $padding-vertical-casestudy $padding-horizontal-casestudy;
+    }
 
 .final-product img{
     padding-left: $padding-horizontal-casestudy;
@@ -188,13 +239,19 @@ q {
     }
 }
 
-.end-chapter img{
-    // width:100%;
+.end-chapter img {
     margin-left: auto;
     margin-right: auto;
     display: block;
     max-width: $full-width-image;
     padding-bottom: $padding-vertical-casestudy;
+}
+.chapter .chapter-image img{
+    max-width: 100%;
+}
+
+.quote-image img {
+    max-width: 100%;
 }
 
 figure {
@@ -202,30 +259,6 @@ figure {
     figcaption {
         padding-left: $padding-horizontal-casestudy;
     }
-}
-
-///spacing - how to make it responsive?
-
-//fixing spacing in summary text
-.summary .details {
-    padding-bottom: (2*$padding-vertical-casestudy);
-
-    div h4{
-        padding-bottom: (0.25*$padding-vertical-casestudy
-);
-    }
-    div p {
-        padding-bottom: (0.5*$padding-vertical-casestudy
-); 
-    }
-}
-
-//horizontal and vertical padding for each element
-article {
-    padding: (3*$padding-vertical-casestudy) $padding-horizontal-casestudy;
-}
-header {
-    padding: $padding-vertical-casestudy $padding-horizontal-casestudy;
 }
 
 

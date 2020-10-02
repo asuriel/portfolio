@@ -1,27 +1,22 @@
-// GLOBAL styles here
-
-
-// styles for all case studies here
-
-
+$primary: #17466A;
+$secondary: #00404D;
 
 // styles for seaborg only here
-
-.background {
-    background-color: #17466A;
+.accent {
+    background-color: $primary;
     h2,h3,p {
         color: white;
     }
 }
+
 .final-product {
-    background: linear-gradient(to bottom, white 0%,white 50%,#17466A 50%,#17466A 100%); /* W3C */
+    background: linear-gradient(to bottom, white 0%,white 50%,$primary 50%,$primary 100%); /* W3C */
 }
 
-//full-width image path
+// images
 .hero-image {
     background-image: url("/assets/img/piclo/cover.svg"); 
     height: 50vh; /* You must set a specified height */
-    
 }
 .service-blueprint {
     background-image: url("/assets/img/piclo/blueprint-map2.png"); 

@@ -5,15 +5,19 @@ import { ForecastComponent } from './case-studies/forecast/forecast.component';
 import { PicloComponent } from './case-studies/piclo/piclo.component';
 import { AmnestyComponent } from './case-studies/amnesty/amnesty.component';
 import { HomeComponent } from './home/home.component';
+import { WorkComponent } from './case-studies/work/work.component';
 
 
 const routes: Routes = [
   { path: '',   redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
-  { path: 'ux/seaborg', component: SeaborgComponent },
-  { path: 'ux/forecast', component: ForecastComponent },
-  { path: 'ux/piclo', component: PicloComponent },
-  { path: 'ux/amnestyinternational', component: AmnestyComponent },
+  { path: 'work', children: [
+    { path: '', component: WorkComponent },
+    { path: 'seaborg', component: SeaborgComponent },
+    { path: 'forecast', component: ForecastComponent },
+    { path: 'piclo', component: PicloComponent },
+    { path: 'amnestyinternational', component: AmnestyComponent },
+  ]},
 ];
 
 @NgModule({

@@ -1,14 +1,18 @@
-.background {
-    background-color: #f7ec42;
+$primary: #f7ec42;
+
+// styles for seaborg only here
+.accent {
+    background-color: $primary;
     h2,h3,p {
         color: black;
     }
 }
+
 .final-product {
-    background: linear-gradient(to bottom, white 0%,white 50%,#f7ec42 50%,#f7ec42 100%); /* W3C */
+    background: linear-gradient(to bottom, white 0%,white 50%,$primary 50%,$primary 100%); /* W3C */
 }
 
-//full-width image path
+// images
 .hero-image {
     background-image: url("/assets/img/amnesty/amnesty-cover.png"); 
     height: 50vh; /* You must set a specified height */

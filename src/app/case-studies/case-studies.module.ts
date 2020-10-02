@@ -4,13 +4,22 @@ import { SeaborgComponent } from './seaborg/seaborg.component';
 import { ForecastComponent } from './forecast/forecast.component';
 import { PicloComponent } from './piclo/piclo.component';
 import { AmnestyComponent } from './amnesty/amnesty.component';
+import { WorkComponent } from './work/work.component';
+import { RouterModule } from '@angular/router';
 
 
 
 @NgModule({
-  declarations: [SeaborgComponent, ForecastComponent, PicloComponent, AmnestyComponent],
+  declarations: [
+    SeaborgComponent,
+    ForecastComponent,
+    PicloComponent,
+    AmnestyComponent,
+    WorkComponent,
+  ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule,
   ]
 })
 export class CaseStudiesModule { }

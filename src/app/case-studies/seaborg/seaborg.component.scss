@@ -1,52 +1,43 @@
-// GLOBAL styles here
+$primary: #3B6E7B;
+$secondary: #00404D;
 
-
-// styles for all case studies here
-
-
-
-// styles for seaborg only here
-
-.background {
-    background-color: #3B6E7B;
+.accent {
+    background-color: $primary;
     h2,h3,p {
         color: white;
     }
 }
-.final-product {
-    background: linear-gradient(to bottom, white 0%,white 50%,#3B6E7B 50%,#3B6E7B 100%); /* W3C */
-}
 
-//full-width image path
-.hero-image {
-    background-image: url("/assets/img/earth.png"); 
-    height: 50vh; /* You must set a specified height */
-    
-}
-.golden-circles {
-    background-image: url("/assets/img/golden-circles.png"); 
-    height: 30vh; /* You must set a specified height */
+.final-product {
+    background: linear-gradient(to bottom, white 0%,white 50%,$primary 50%,$primary 100%); /* W3C */
 }
 
 .quote-image {
-    background-color: #00404D;
-}
-.illustration {
-    background-image: url("/assets/img/illustration-placeholder.png"); 
-    height: 50vh; /* You must set a specified height */
-}
-.style-tyle {
-    background-image: url("/assets/img/style-tyle.png"); 
-    height: 50vh; /* You must set a specified height */ 
-}
-.closing-image {
-    background-image: url("/assets/img/closing-image.png"); 
-    height: 80vh; /* You must set a specified height */ 
-}
-.end-chapter {
-    background-color: #3B6E7B;
-    p {
-        color: white;
-    }
+    background-color: $secondary;
 }
 
+// images
+.hero-image {
+    background-image: url("/assets/img/seaborg/earth.png"); 
+    height: 50vh; /* You must set a specified height */
+}
+
+.golden-circles {
+    background-image: url("/assets/img/seaborg/golden-circles.png"); 
+    height: 30vh; /* You must set a specified height */
+}
+
+.illustration {
+    background-image: url("/assets/img/seaborg/illustration-placeholder.png"); 
+    height: 50vh; /* You must set a specified height */
+}
+
+.style-tyle {
+    background-image: url("/assets/img/seaborg/style-tyle.png"); 
+    height: 50vh; /* You must set a specified height */ 
+}
+
+.closing-image {
+    background-image: url("/assets/img/seaborg/closing-image.png"); 
+    height: 80vh; /* You must set a specified height */ 
+}

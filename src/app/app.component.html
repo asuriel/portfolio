@@ -1,3 +1,14 @@
+<div id="mySidenav" class="sidenav">
+  <a class="closebtn" (click)="closeNav()">&times;</a>
+  <a routerLink="work" (click)="closeNav()">Work</a>
+  <a routerLink="about" (click)="closeNav()">About</a>
+  <a routerLink="approach" (click)="closeNav()">Approach</a>
+  <!-- <a routerLink="contact" (click)="closeNav()">Contact</a> -->
+</div>
+
+<!-- Element to open nav -->
+<span id="burger" (click)="openNav()">=</span>
+
 <div class="main-container">
   <nav>
     <div class="logo">
@@ -15,15 +26,23 @@
         routerLink="about"
         class="nav-link"
         routerLinkActive="active-link">About</li>
+      <li 
+        routerLink="approach"
+        class="nav-link"
+        routerLinkActive="active-link">Approach</li>
+      <!-- <li 
+        routerLink=""
+        class="nav-link"
+        routerLinkActive="active-link">Contact</li> -->
     </ul>
   </nav>
   <div class="main-content">
     <router-outlet></router-outlet>
   </div>
   <div class="social-media">
-    <img src="assets/img/social-media/behance.svg" alt="">
-    <img src="assets/img/social-media/email.svg" alt="">
-    <img src="assets/img/social-media/insta.svg" alt="">
-    <img src="assets/img/social-media/linkedin.svg" alt="">
+    <img src="assets/img/social-media/behance-pink.svg" alt="">
+    <img src="assets/img/social-media/email-pink.svg" alt="">
+    <img src="assets/img/social-media/insta-pink.svg" alt="">
+    <img src="assets/img/social-media/linkedin-pink.svg" alt="">
   </div>
 </div>

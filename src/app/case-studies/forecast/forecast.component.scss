@@ -1,0 +1,39 @@
+$primary: #EDE5F8;
+$secondary: #392366;
+
+
+.accent {
+    background-color: $secondary;
+    .section-title {
+        text-align: center;
+    }
+    h1,h2,h3,h4,p {
+        color: white;
+    }
+}
+.accent-light {
+    background-color: $primary;
+        color: $secondary;
+}
+
+
+.final-product {
+    background: linear-gradient(to bottom, white 0%,white 50%,$primary 50%,$primary 100%); /* W3C */
+}
+q:before, q:after {
+    content: "";
+}
+.quote {
+    background-color: $primary;
+    color: $secondary;
+    text-align: center;
+    h4 {
+        color: $secondary;  
+    }
+}
+
+// images
+.hero-image {
+    background-image: url("/assets/img/forecast/cover.png"); 
+    height: 50vh; /* You must set a specified height */
+}

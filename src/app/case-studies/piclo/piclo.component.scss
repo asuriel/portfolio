@@ -1,5 +1,5 @@
 $primary: #17466A;
-$secondary: #00404D;
+$secondary: #B3CEE9;
 
 // styles for seaborg only here
 .accent {
@@ -8,9 +8,13 @@ $secondary: #00404D;
         color: white;
     }
 }
+.accent-light{
+    background-color: $secondary;
+   
+}
 
 .final-product {
-    background: linear-gradient(to bottom, white 0%,white 50%,$primary 50%,$primary 100%); /* W3C */
+    background: linear-gradient(to bottom, white 0%,white 50%,$secondary 50%,$secondary 100%); /* W3C */
 }
 
 // images
@@ -19,6 +23,6 @@ $secondary: #00404D;
     height: 50vh; /* You must set a specified height */
 }
 .service-blueprint {
-    background-image: url("/assets/img/piclo/blueprint-map2.png"); 
+    background-image: url("/assets/img/piclo/map2.png"); 
     height: 70vh; /* You must set a specified height */
 }

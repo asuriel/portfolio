@@ -1,6 +1,8 @@
 @import 'mixins';
 @import 'src/variables';
 
+
+//NAV STYLING MOVE TO ITS OWN CSS
 //nav states
 .active-link {
     text-decoration: underline;
@@ -17,13 +19,73 @@ nav ul li:hover {
     max-width: 100px;
 }
 
-//reponsive layout
-//for mobile and tablet
-@media only screen and(max-width: 800px){
-    .main-container {
-        // background-color: blue;
+
+
+
+
+
+
+//on desktop
+@media only screen and(min-width: 800px) {
+    #burger {
+        display: none;
+    }
+    .sidenav {
+        display: none;
     }
 }
+
+//for mobile and tablet
+@media only screen and(max-width: 800px) {
+    nav {
+        display: none;
+    }
+    #burger {
+        display: block;
+    }
+    
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn, #burger{
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    
+    //sidenav drawer for mobile
+    .sidenav {
+        height: 100%; 
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; 
+        z-index: 1; 
+        top: 0; 
+        right: 0;
+        background-color: #f9cc12;
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+    
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+}
+
+
+
+//RESPONSIVE LAYOUT
+
 //desktop sizes
 @media only screen and (min-width: 800px) and (max-width:1920px){
     .main-container {
@@ -51,27 +113,27 @@ nav ul li:hover {
     .main-container {
         grid-template-areas: "nav content social";
     }
-
+    
     .logo {
         width: 70%;
         margin-left: auto;
         margin-right: auto;
         display: block;
         padding-top: $padding-vertical-casestudy;
-    
+        
         svg circle:hover{
             fill: #FA6333;
         }
     }
-
+    
     nav {
         grid-area: nav;
         line-height: 70px;
         justify-self: right;
         // display: flex;
-    
+        
         border-right: 3px black solid;
-
+        
         ul {
             margin:0;
             padding:0;
@@ -84,27 +146,23 @@ nav ul li:hover {
             padding: 0 20px;
         }
         //fix the mobile size
-        
-        // .logo:hover {
-        //     svg img {
-        //     }
-        // }
+    
     }
-
+            
     .main-content {
         grid-area: content;
     }
-
+    
     .social-media {
         grid-area: social;
         justify-self: left;
-
+        
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         padding-bottom: 5vh;
         border-left: 3px black solid;
-
+        
     }
     nav, .social-media {
         position:sticky;
@@ -112,5 +170,5 @@ nav ul li:hover {
         height:100vh;
         width:$nav-width;
     }
-   
+    
 }

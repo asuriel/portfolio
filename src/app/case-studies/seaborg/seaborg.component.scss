@@ -1,5 +1,5 @@
-$primary: #3B6E7B;
-$secondary: #00404D;
+$primary: #003642;
+$secondary: #005E5B;
 
 .accent {
     background-color: $primary;
@@ -12,8 +12,8 @@ $secondary: #00404D;
     background: linear-gradient(to bottom, white 0%,white 50%,$primary 50%,$primary 100%); /* W3C */
 }
 
-.quote-image {
-    background-color: $secondary;
+.quote {
+    background-color: $primary;
 }
 
 // images

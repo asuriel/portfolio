@@ -6,6 +6,7 @@ import { PicloComponent } from './piclo/piclo.component';
 import { AmnestyComponent } from './amnesty/amnesty.component';
 import { WorkComponent } from './work/work.component';
 import { RouterModule } from '@angular/router';
+import { ShapeshiftComponent } from './shapeshift/shapeshift.component';
 
 
 
@@ -16,6 +17,7 @@ import { RouterModule } from '@angular/router';
     PicloComponent,
     AmnestyComponent,
     WorkComponent,
+    ShapeshiftComponent,
   ],
   imports: [
     CommonModule,

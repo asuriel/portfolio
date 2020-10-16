@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio';
+
+  public openNav(){
+    document.getElementById("mySidenav").style.width = "100vw";
+  }
+  public closeNav(){
+    document.getElementById("mySidenav").style.width = "0";
+  }
 }

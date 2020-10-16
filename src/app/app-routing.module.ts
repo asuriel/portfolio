@@ -4,6 +4,7 @@ import { SeaborgComponent } from './case-studies/seaborg/seaborg.component';
 import { ForecastComponent } from './case-studies/forecast/forecast.component';
 import { PicloComponent } from './case-studies/piclo/piclo.component';
 import { AmnestyComponent } from './case-studies/amnesty/amnesty.component';
+import { ShapeshiftComponent } from './case-studies/shapeshift/shapeshift.component';
 import { HomeComponent } from './home/home.component';
 import { WorkComponent } from './case-studies/work/work.component';
 
@@ -17,6 +18,7 @@ const routes: Routes = [
     { path: 'forecast', component: ForecastComponent },
     { path: 'piclo', component: PicloComponent },
     { path: 'amnestyinternational', component: AmnestyComponent },
+    { path: 'shapeshift', component: ShapeshiftComponent },
   ]},
 ];
 

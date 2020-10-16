@@ -1,3 +1,14 @@
+.image-chapter {
+    padding: 0;
+    line-height: 0;
+    img {
+       width: 100%;
+   }
+   figcaption {
+       line-height: 1.4 ;
+   }
+} 
+
 @media only screen and (max-width: 800px){
     .summary .details {
         display: grid;
@@ -51,6 +62,8 @@
         }
         
     }
+  
+
 
     header {
         display: grid;
@@ -107,7 +120,7 @@ header {
     max-width: $full-width-image;
 
     @media screen and (max-width: 375px) {
-       max-width: 80%;
+       max-width: 90%;
        padding-left: $padding-horizontal-casestudy; 
     }
 }
@@ -125,13 +138,25 @@ header {
 
 .quote-image img {
     max-width: 100%;
+
+}
+figcaption {
+    padding-left: $padding-horizontal-casestudy;
 }
 
 figure {
     margin:0;
-    figcaption {
-        padding-left: $padding-horizontal-casestudy;
-    }
+}
+
+.quote {
+   background-color: black;
+   color: white;
+//    text-align: center; 
+   padding-left: $padding-horizontal-casestudy;
+}
+
+video {
+    width:100%
 }
 
 .full-width {
@@ -140,3 +165,4 @@ figure {
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 }
+

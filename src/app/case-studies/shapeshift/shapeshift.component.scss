@@ -1,0 +1,36 @@
+$primary: #D7D5FF;
+$secondary: #1B1838;
+body {
+    color: $secondary;
+}
+
+.accent {
+    background-color: $primary;
+}
+
+.final-product {
+    background: linear-gradient(to bottom, white 0%,white 50%,$primary 50%,$primary 100%); /* W3C */
+}
+
+.quote {
+    background-color: $primary;
+    color: $secondary;
+}
+
+// images
+.hero-image {
+    background-image: url("/assets/img/shapeshift/cover.jpg"); 
+    height: 80vh; /* You must set a specified height */
+}
+.postcards {
+    background-image: url("/assets/img/shapeshift/postcards.jpg"); 
+    height: 70vh; /* You must set a specified height */
+}
+.box-jar {
+    background-image: url("/assets/img/shapeshift/box-jar.jpg"); 
+    height: 70vh; /* You must set a specified height */
+}
+.box-jar {
+    background-image: url("/assets/img/shapeshift/box-jar.jpg"); 
+    height: 70vh; /* You must set a specified height */
+}

@@ -29,14 +29,14 @@ export class HomeComponent implements OnInit {
       translateY: -160,
       duration: 3000,
       easing: 'easeInOutExpo',
-      fill: '#F9CC12'
+      fill: '#fa5274'
     });
     timeline.add({
       targets: rectangle,
       easing: 'easeInExpo',
       translateY: -150,
       duration: 1500,
-      fill: '#090A73'
+      fill: '#1c3fc9'
     });
     // timeline.add({
     //   targets: '#moon path',

@@ -13,7 +13,7 @@
   <nav>
     <div class="logo">
       <svg routerLink="home" class="nav-link" routerLinkActive="active-link" height="100%" width='100%' viewBox="0 0 100 100">
-        <circle id="sun" cx="50" cy="50" r="50" stroke="black" stroke-width="0" fill="#F9CC12"/>
+        <circle id="logo" cx="50" cy="50" r="47" stroke="black" stroke-width="3" fill="#F9CC12"/>
       </svg>
 
     </div>
@@ -26,23 +26,23 @@
         routerLink="about"
         class="nav-link"
         routerLinkActive="active-link">About</li>
-      <li 
+      <!-- <li 
         routerLink="approach"
         class="nav-link"
-        routerLinkActive="active-link">Approach</li>
+        routerLinkActive="active-link">Approach</li> -->
       <!-- <li 
         routerLink=""
         class="nav-link"
         routerLinkActive="active-link">Contact</li> -->
     </ul>
   </nav>
-  <div class="main-content">
+  <div class="main-content" data-scroll-container>
     <router-outlet></router-outlet>
   </div>
   <div class="social-media">
-    <img src="assets/img/social-media/behance-pink.svg" alt="">
-    <img src="assets/img/social-media/email-pink.svg" alt="">
-    <img src="assets/img/social-media/insta-pink.svg" alt="">
-    <img src="assets/img/social-media/linkedin-pink.svg" alt="">
+    <!-- <img src="assets/img/social-media/behance-pink.svg" alt=""> -->
+    <a href="mailto:aurorasmelchor@gmail.com"><img src="assets/img/social-media/email-outline.svg" alt="email"></a>
+    <a href="https://www.instagram.com/lacabrastudio/" target="_blank"><img src="assets/img/social-media/insta-outline.svg" alt="insta"></a>
+    <a href="https://www.linkedin.com/in/aurorasuriel/" target="_blank"> <img src="assets/img/social-media/linkedin-outline.svg" alt=""></a>
   </div>
 </div>

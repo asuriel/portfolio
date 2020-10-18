@@ -7,6 +7,12 @@ $secondary: #005E5B;
         color: white;
     }
 }
+.accent-light {
+    background-color: $secondary;
+    h2,h3,p {
+        color: white;
+    }
+}
 
 .final-product {
     background: linear-gradient(to bottom, white 0%,white 50%,$primary 50%,$primary 100%); /* W3C */

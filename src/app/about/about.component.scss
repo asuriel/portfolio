@@ -1,0 +1,23 @@
+@import 'src/variables';
+
+$primary: "#fa5274";
+$secondary: "#f9cc12";
+
+// styles for seaborg only here
+.accent {
+    background-color: $primary;
+   
+}
+.accent-light{
+    background-color: $secondary;
+   
+}
+
+.final-product {
+    background: linear-gradient(to bottom, white 0%,white 50%,$secondary 50%,$secondary 100%); /* W3C */
+}
+
+.hero-image {
+    background-image: url("/assets/img/sketchnoting.jpg"); 
+    height: 50vh; /* You must set a specified height */
+}

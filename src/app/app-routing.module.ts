@@ -7,6 +7,7 @@ import { AmnestyComponent } from './case-studies/amnesty/amnesty.component';
 import { ShapeshiftComponent } from './case-studies/shapeshift/shapeshift.component';
 import { HomeComponent } from './home/home.component';
 import { WorkComponent } from './case-studies/work/work.component';
+import { AboutComponent } from './about/about.component';
 
 
 const routes: Routes = [
@@ -20,6 +21,7 @@ const routes: Routes = [
     { path: 'amnestyinternational', component: AmnestyComponent },
     { path: 'shapeshift', component: ShapeshiftComponent },
   ]},
+  { path: 'about', component: AboutComponent },
 ];
 
 @NgModule({

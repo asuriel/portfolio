@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "portfolio-placeholder": {
+      "hosting": {
+        "portfolio": [
+          "portfolio-placeholder"
+        ]
+      }
+    }
+  }
+}

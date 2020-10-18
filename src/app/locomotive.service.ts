@@ -1,5 +1,7 @@
-import { Injectable } from '@angular/core';
+import { Injectable, NgZone } from '@angular/core';
 import LocomotiveScroll from 'locomotive-scroll';
+import { interval } from 'rxjs';
+import { startWith, takeUntil } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
@@ -7,7 +9,7 @@ import LocomotiveScroll from 'locomotive-scroll';
 export class LocomotiveService {
   private locomotive: any;
 
-  constructor() {}
+  constructor(private zone: NgZone) {}
 
   start() {
     // load locomotive twice
@@ -17,7 +19,9 @@ export class LocomotiveService {
     // TODO: once published, review if the double call works
     // if not, try: https://dev.to/herodevs/route-fully-rendered-detection-in-angular-2nh4
     this.startLocomotive();
-    setTimeout(() => this.startLocomotive(), 1000);
+    setTimeout(() => this.startLocomotive(), 2000);
+    setTimeout(() => this.startLocomotive(), 5000);
+    setTimeout(() => this.startLocomotive(), 10000);
   }
 
   private startLocomotive() {

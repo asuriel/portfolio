@@ -60,11 +60,11 @@
 @media screen and (min-width: 800px){
     .container {
         grid-template-columns: repeat(4,1fr);
-        grid-template-rows: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
         grid-template-areas: 
         "header header animation animation"
         "headline headline animation animation"
-        "portfolio portfolio-picture about about-picture";
+        // "portfolio portfolio-picture about about-picture";
     }
     .title {
         h1 {

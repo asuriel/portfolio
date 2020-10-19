@@ -26,7 +26,7 @@ export class HomeComponent implements OnInit {
 
     timeline.add({
       targets: circle,
-      translateY: -160,
+      translateY: -180,
       duration: 3000,
       easing: 'easeInOutExpo',
       fill: '#fa5274'
@@ -48,7 +48,7 @@ export class HomeComponent implements OnInit {
 
     timeline.add({
       targets: moon,
-      translateX: 50,
+      translateX: 30,
       translateY: 10,
       // rotate: path('angle'),
       duration: 2000,

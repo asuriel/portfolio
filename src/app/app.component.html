@@ -7,7 +7,13 @@
 </div>
 
 <!-- Element to open nav -->
-<span id="burger" (click)="openNav()">=</span>
+<div id="burger-container">
+  <span class="logo-mobile">
+    <a  routerLink="home" class="nav-link" routerLinkActive="active-link" href=""><img src="assets/img/logo.svg" alt=""></a>
+  </span>
+  <span id="burger" (click)="openNav()">=</span>
+</div>
+
 
 <div class="main-container">
   <nav>

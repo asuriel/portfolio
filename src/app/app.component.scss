@@ -13,6 +13,7 @@
 }
 nav ul li:hover {
     font-style: italic;
+    color: #fa5274;
 }
 
 .logo {
@@ -86,14 +87,11 @@ nav ul li:hover {
         padding: 8px 8px 8px 32px;
         text-decoration: none;
         font-size: 25px;
-        color: #ffffff;
+        color: black;
         display: block;
         transition: 0.3s;
     }
-    /* When you mouse over the navigation links, change their color */
-    .sidenav a:hover {
-        color: #f1f1f1;
-    }
+    
 }
 
 
@@ -113,7 +111,6 @@ nav ul li:hover {
     .main-container {
         display: grid;
         grid-template-columns: 1fr 1680px 1fr; 
-        background-color: pink; 
     }
     nav {
         border-left: 3px black solid;

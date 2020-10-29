@@ -1,12 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import anime from 'animejs/lib/anime.es.js';
+import { element } from 'protractor';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent implements OnInit, OnDestroy {
 
   constructor() { }
 
@@ -54,6 +55,70 @@ export class HomeComponent implements OnInit {
       duration: 2000,
     });
     
+    // this.textAnimation('Designs digital interfaces');
+    this.loopSentences()
+  }
+
+  ngOnDestroy(): void {
+    clearInterval(this.loopId);
+  }
+
+
+  private loopSentences() {
+    this.textAnimation();
+
+    this.loopId = setInterval(() => {
+      this.textAnimation();
+    },3000)
+  }
+  
+  private loopId: any = 0;
+  private sentences: string[] = [
+    'Designs digital interfaces',
+    'Facilitates awesome workshops',
+    'Always builds prototypes first',
+    'Is an advocate for the user',
+    'Coded her own UX portfolio',
+    'had a secret past life as a developer',
+    'likes to draw beautiful illustrations',
+    'is a name that means morning in Latin',
+    '...Is a night owl.',
+  ];
+  
+  private sentenceIndex: number = -1;
+
+  private getNextSentence(){
+      this.sentenceIndex++;
+      if (this.sentenceIndex === this.sentences.length) {
+        this.sentenceIndex = 0;
+      }
+      return this.sentences[this.sentenceIndex];
+  }
+
+  private textAnimation() {
+    let text = this.getNextSentence();
+
+    let sentence = text.replace(/\S/g, "<span class='letter'>$&</span>");
+
+    document.getElementById("s1").innerHTML = sentence;
+
+    anime.timeline({loop: false})
+      .add({
+      targets: '#s1 .letter',
+      translateY: [100,0],
+      translateZ: 0,
+      opacity: [0,1],
+      easing: "easeOutExpo",
+      duration: 1400,
+      delay: (el, i) => 300 + 30 * i
+    }).add({
+      targets: '#s1 .letter',
+      translateY: [0,-100],
+      opacity: [1,0],
+      easing: "easeInExpo",
+      duration: 1200,
+      delay: (el, i) => 100 + 30 * i
+    });
 
   }
 
